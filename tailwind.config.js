@@ -1,7 +1,18 @@
 module.exports = {
   content: ["./**/*.{ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        background: "background 200s linear infinite",
+        background2: "background 150s linear infinite",
+      },
+      keyframes: {
+        background: {
+          "0%": { backgroundPosition: "0 0" },
+          "100%": { backgroundPosition: "10000px 10000px" },
+        },
+      },
+    },
   },
   daisyui: {
     themes: [

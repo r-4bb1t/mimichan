@@ -1,4 +1,3 @@
-import "i18n";
 import "styles/taiwindcss.css";
 import "styles/globals.css";
 import { useEffect } from "react";
