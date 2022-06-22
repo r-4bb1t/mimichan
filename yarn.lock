@@ -816,6 +816,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"break-styled-lines@npm:^1.2.2":
+  version: 1.3.1
+  resolution: "break-styled-lines@npm:1.3.1"
+  checksum: c9bad32619d927ab52c81cce297c9bdd93bc75e97834bc5d2ef63b531c61b8ae378cb492092ee36e2b4f70715ea9eb011d0f787db2173d9e38c6adf324d258d9
+  languageName: node
+  linkType: hard
+
 "browserslist@npm:^4.20.2":
   version: 4.20.2
   resolution: "browserslist@npm:4.20.2"
@@ -3127,6 +3134,7 @@ __metadata:
     tailwindcss: ^3.0.23
     typescript: ^4.6.0
     vercel: ^24.0.1
+    windups: ^1.2.1
   languageName: unknown
   linkType: soft
 
@@ -4546,6 +4554,17 @@ __metadata:
   dependencies:
     string-width: ^4.0.0
   checksum: 03db6c9d0af9329c37d74378ff1d91972b12553c7d72a6f4e8525fe61563fa7adb0b9d6e8d546b7e059688712ea874edd5ded475999abdeedf708de9849310e0
+  languageName: node
+  linkType: hard
+
+"windups@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "windups@npm:1.2.1"
+  dependencies:
+    break-styled-lines: ^1.2.2
+  peerDependencies:
+    react: ">16.8.0"
+  checksum: 0f11d42fefb90202d9771f02347e56c42c21ef4864c8b0e0e157de359324f2262db0f9906724db2b37cd6e093b27d4939490a6aeb71db1db12a8fd90213c7076
   languageName: node
   linkType: hard
 

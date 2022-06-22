@@ -58,7 +58,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-i18next", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:11.17.2"],\
             ["tailwindcss", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:3.0.23"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"],\
-            ["vercel", "npm:24.0.1"]\
+            ["vercel", "npm:24.0.1"],\
+            ["windups", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:1.2.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1040,6 +1041,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["braces", "npm:3.0.2"],\
             ["fill-range", "npm:7.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["break-styled-lines", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/break-styled-lines-npm-1.3.1-4c50a3d34f-c9bad32619.zip/node_modules/break-styled-lines/",\
+          "packageDependencies": [\
+            ["break-styled-lines", "npm:1.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3823,7 +3833,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-i18next", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:11.17.2"],\
             ["tailwindcss", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:3.0.23"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"],\
-            ["vercel", "npm:24.0.1"]\
+            ["vercel", "npm:24.0.1"],\
+            ["windups", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:1.2.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5481,6 +5492,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["widest-line", "npm:3.1.0"],\
             ["string-width", "npm:4.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["windups", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/windups-npm-1.2.1-31e4698434-0f11d42fef.zip/node_modules/windups/",\
+          "packageDependencies": [\
+            ["windups", "npm:1.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:1.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/windups-virtual-1c05e6d1c2/0/cache/windups-npm-1.2.1-31e4698434-0f11d42fef.zip/node_modules/windups/",\
+          "packageDependencies": [\
+            ["windups", "virtual:0e1b6f9f9a6db04980e22d19109a4fb09015b4cae9ba4901cb7380ea005dd88a42c3cd10033175c4f920b547d5ba642127377ed960a061de4ed3c4d1140b20c0#npm:1.2.1"],\
+            ["@types/react", "npm:17.0.43"],\
+            ["break-styled-lines", "npm:1.3.1"],\
+            ["react", "npm:18.0.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

@@ -17,3 +17,19 @@
 .keep-all {
   word-break: keep-all;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.after-text:after {
+  content: " ▼";
+  animation: blink 1s step-end infinite;
+}
+
+.after-text.is-typing:after {
+  content: " _";
+  animation: blink 1s step-end infinite;
+}
