@@ -5,7 +5,7 @@ interface TextProps {
   shake: () => void;
 }
 
-const SkipButton = (isTyping: boolean) => {
+const SkipButton = ({ isTyping }: { isTyping: boolean }) => {
   const skip = useSkip();
   return <div onClick={isTyping ? skip : () => {}} className="w-full h-full absolute top-0 left-0" />;
 };
