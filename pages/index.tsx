@@ -1,5 +1,6 @@
 import Text from "components/Text";
 import type { GetServerSideProps, NextPage } from "next";
+import Link from "next/link";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -7,19 +8,13 @@ const Home: NextPage = () => {
   const [isEffect, setIsEffect] = useState(false);
 
   return (
-    <div className="bg-yellow-200 w-full min-h-screen flex items-center justify-center">
-      <div className="absolute top-0 left-0 w-full h-full bg-[url(/assets/background.png)] animate-background opacity-50" />
-      <div className="absolute top-0 left-0 w-full h-full bg-[url(/assets/background.png)] bg-[length:400px_200px] animate-background2 opacity-30" />
-      <div
-        className={`z-10 relative w-full max-w-md bg-white bg-[url(https://images.unsplash.com/photo-1567880905822-56f8e06fe630)] bg-cover h-screen ${
-          isEffect && "animate-shake"
-        }`}
-      >
-        <div className="w-full flex items-center justify-center absolute bottom-0">
-          <img src="/assets/mimi.png" className="w-full object-contain" />
-        </div>
-        <Text shake={() => setIsEffect(true)} />
+    <div className={`max-w-md min-h-screen z-10 bg-violet-100 flex flex-col justify-center items-center`}>
+      <div className="animate-bounce">
+        <img src="/assets/title.png" />
       </div>
+      <Link href="/main">
+        <a className="bg-[#ac75d9] px-6 py-2 rounded-full text-xl font-bold border-2 border-white">시작하기!</a>
+      </Link>
     </div>
   );
 };
