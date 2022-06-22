@@ -1,0 +1,83 @@
+[
+  {
+    "index": 0,
+    "mimi": 1,
+    "texts": ["효경아.", 1000, "나랑 ", "/shake", "사귀자.", 1000, "사랑해."],
+    "next": 1,
+    "background": "https://images.unsplash.com/photo-1567880905822-56f8e06fe630"
+  },
+  {
+    "index": 1,
+    "mimi": 1,
+    "texts": ["나랑 데이트하자.", 1000, "어디 갈까?"],
+    "options": [
+      { "text": "공원에서 산책할까?", "index": 2 },
+      { "text": "영화 보자!", "index": 3 },
+      { "text": "일단 카페..?", "index": 4 }
+    ],
+    "background": "https://images.unsplash.com/photo-1567880905822-56f8e06fe630"
+  },
+  {
+    "index": 2,
+    "mimi": 2,
+    "texts": ["좋아!", 1000, "역시 효경이는 내 마음을 잘 아는구나!", 1000, "마침 공원에 가고 싶었거든."],
+    "next": 5,
+    "background": "https://images.unsplash.com/photo-1567880905822-56f8e06fe630"
+  },
+  {
+    "index": 3,
+    "mimi": 1,
+    "texts": ["영화..? 나 영화 보는거 싫어하는데."],
+    "options": [
+      { "text": "...공원에서 산책할까?", "index": 2 },
+      { "text": "...카페...?", "index": 4 }
+    ],
+    "background": "https://images.unsplash.com/photo-1567880905822-56f8e06fe630"
+  },
+  {
+    "index": 4,
+    "mimi": 1,
+    "texts": ["우리가 있는 곳이 카페잖아 효경아.", 1000, "배경을 잘 봐야지."],
+    "options": [
+      { "text": "...공원에서 산책할까?", "index": 2 },
+      { "text": "...영화 보자!", "index": 3 }
+    ],
+    "background": "https://images.unsplash.com/photo-1567880905822-56f8e06fe630"
+  },
+  {
+    "index": 5,
+    "mimi": 1,
+    "texts": ["효경이가 뭔가 준비했겠지?"],
+    "options": [{ "text": "뭘...?", "index": 6 }],
+    "background": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+  },
+  {
+    "index": 6,
+    "mimi": 1,
+    "texts": ["공원 데이트면 도시락 같은거 준비하는 게 센스 아니니?"],
+    "options": [
+      { "text": "앗ㅎㅎ;; 내가 센스가 업섯냉", "index": 7 },
+      { "text": "뭔 개소리야?", "index": 8 }
+    ],
+    "background": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+  },
+  {
+    "index": 7,
+    "mimi": 1,
+    "texts": ["다음번에 기대할게.", 1000, "오늘은 사귄지 하루밖에 안 됐으니까 그럴 수 있지."],
+    "options": [{ "text": "고마워.", "index": 9 }],
+    "background": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+  },
+  {
+    "index": 8,
+    "mimi": 1,
+    "texts": ["정말 실망이다.", 2000, "/shake", "헤어지자.", 1000, "[GAME OVER]"],
+    "background": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+  },
+  {
+    "index": 9,
+    "mimi": 2,
+    "texts": ["하핫 난 정말 착한 남자라니까^^", 1000, "[당신은 착한 보검이와 연인이 되었습니다. 축하합니다.]"],
+    "background": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+  }
+]
